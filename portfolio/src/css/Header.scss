@@ -8,6 +8,7 @@ $main-menu-margin : 12px;
 .mainImg {
   height: $main-img-height;
   width: $main-img-width;
+  border-radius: 70%;
 }
 
 .mainTitle {
@@ -15,7 +16,7 @@ $main-menu-margin : 12px;
 }
 
 .nav {
-  background-color:  #f3efec;
+  background-color:  #ffffff;
   font-weight: $font-bold;
 
   .navbar-collapse {

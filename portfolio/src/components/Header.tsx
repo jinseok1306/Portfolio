@@ -28,7 +28,7 @@ function Header() {
               <Col xs={{ size: 1 }} sm={{ size: 1}} md={{ size: 1, offset : 1 }}>
                 <NavbarBrand href="">
                   <img src={process.env.PUBLIC_URL + "/assets/img/profile.jpeg"} alt="프로필 사진" className="mainImg" />
-                  <span className="mainTitle">Jinseok Park</span>
+                  <span className="mainTitle">  Jinseok Park</span>
                 </NavbarBrand>
               </Col>
               <Col xs={3} sm={2} md={{ size: 1, offset: 1 }}>
