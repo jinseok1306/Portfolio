@@ -7,13 +7,13 @@ function Home(): JSX.Element {
     <div id="home">
       <Container className="home-container">
         <Row>
-          <Col xs={12} sm={12} md={12}>
+          <Col xs={12} sm={12} md={12}> 
             <div className="title">
               <div className="font-bold">
                 Hello, I’m
                 <span className="font-color-pink"> Jinseok Park</span>.
               </div>
-              <div className="font-bold">Web Developer.</div>
+              <div className="font-bold">Web Developer</div>
             </div>
           </Col>
         </Row>
