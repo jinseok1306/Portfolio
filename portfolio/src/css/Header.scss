@@ -1,0 +1,44 @@
+$font-bold : bold;
+$main-img-height : 50px;
+$main-img-width : 50px;
+$main-title-bold : 700;
+$main-img-margin : 200px;
+$main-menu-margin : 12px;
+
+.mainImg {
+  height: $main-img-height;
+  width: $main-img-width;
+}
+
+.mainTitle {
+  font-weight: $main-title-bold;
+}
+
+.nav {
+  background-color:  #f3efec;
+  font-weight: $font-bold;
+
+  .navbar-collapse {
+    @media screen and (min-width : 1001px){
+      left: 40%;
+      position: absolute;
+    }
+    @media screen and (min-width : 769px) and (max-width : 1000px){
+      left: 30%;
+      position: absolute;
+    }
+
+    .navbar-ul {
+      @media screen and (min-width : 1201px){
+        width: 600px;
+      }
+      @media screen and (min-width : 769px) and (max-width : 1200px){
+        width: 500px;
+      }
+
+      .navItem {
+        width: 100%;
+      }
+    }
+  }
+}

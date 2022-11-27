@@ -1,0 +1,31 @@
+$color-black : #000000;
+$color-white : #ffffff;
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: $color-black;
+    text-align: center;
+    padding-top: 45vh;
+
+    .title {
+        color: $color-white;
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 900px) {
+    #home {
+        .title {
+            font-size: 2em;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    #home {
+        .title {
+            font-size: 1.5em;
+        }
+    }
+}
