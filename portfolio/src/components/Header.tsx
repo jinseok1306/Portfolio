@@ -49,15 +49,7 @@ function Header() {
                     <NavLink href="#projects" onClick={setIsClose}>PROJECTS</NavLink>
                   </NavItem>
                 </Nav>
-              </Collapse>
-              <Col xs={{ size: 1 }} sm={{ size: 1}} md={{ size: 1, offset : 1 }}>
-                <NavbarBrand href="https://jinseok-park.notion.site/37cf6dd814f749a5b51650e5d6f1b80d">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/Notion.png"} alt="Notion 링크" className="mainImg" />                  
-                </NavbarBrand>
-                <NavbarBrand href="https://github.com/jinseok1306">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/Github.jpg"} alt="Github 링크" className="mainImg" />                  
-                </NavbarBrand>
-              </Col>
+              </Collapse>              
             </Navbar>
           </Col>
         </Row>
