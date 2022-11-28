@@ -48,9 +48,6 @@ function Header() {
                   <NavItem className="navItem">
                     <NavLink href="#projects" onClick={setIsClose}>PROJECTS</NavLink>
                   </NavItem>
-                  <NavItem className="navItem">
-                    <NavLink href="#contact" onClick={setIsClose}>CONTACT</NavLink>
-                  </NavItem>
                 </Nav>
               </Collapse>
               <Col xs={{ size: 1 }} sm={{ size: 1}} md={{ size: 1, offset : 1 }}>
