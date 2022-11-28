@@ -137,7 +137,8 @@ function Projects(): JSX.Element {
                     icon={faCheck}
                     className="icon-size-1e icon-color"
                   />
-                  <span className="keyword-gray margin-left-1e margin-right-03e">디자인</span>                   
+                  <span className="keyword-gray margin-left-1e margin-right-03e">기획</span>       
+                  <span className="keyword-gray margin-left-right-03e">디자인</span>                  
                   <span className="keyword-gray margin-left-right-03e">개발</span>
                 </p>
               </div>              
