@@ -40,6 +40,24 @@ const carousel_no_image = [
     }
 ];
 
+const carousel_erp = [
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/UNIERP.jpg"
+  }
+];
+
+const carousel_groupware = [
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/jahwa_groupware.png"
+  }
+];
+
+const carousel_yearend = [
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/연말정산.jpg"
+  }
+];
+
 function Projects(): JSX.Element {
   return (
     <div id="projects" className="padding-top-btm-5e">
@@ -97,8 +115,105 @@ function Projects(): JSX.Element {
         {/* Project2 */}
         <Row>          
            <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
-            <div className="image_carousel">
-                <UncontrolledCarousel items={carousel_no_image}/>
+            <div style={{width:"80%"}}>
+                <UncontrolledCarousel items={carousel_yearend}/>
+            </div>            
+          </Col>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div>
+              <p className="font-bold-900 font-2">종합소득세 시스템 개선</p>
+              <p className="font-color-lightgray font-bold">
+                연말정산 데이터를 ERP 상에서 관리하고 종합소득세 신고를 할 수 있도록 메뉴를 구축하고 제출자료를 OZ Report로 개발했습니다.
+              </p>
+              <div className="padding-top-btm-1e">
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faUsers}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2명</span>
+                  <span className="keyword-gray margin-left-right-03e">기여도 <span className="font-red">80</span> %</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCalendarAlt}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2021.04 - 2021.06 (3개월)</span>
+                </p>                
+                <div>                  
+                  <img className="image_skill margin-left-right-03e" alt=".NET" src ="https://img.shields.io/badge/.NET-512BD4.svg?&style=for-the-badge&logo=.NET&logoColor=white"/>                                    
+                  <img className="image_skill margin-left-right-03e" alt="Mssql" src="https://img.shields.io/badge/Microsoft SQL Server-CC2927?style=for-the-badge&logo=Microsoft SQL Server&logoColor=white"/>                  
+                </div>
+              </div>
+              <div>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="icon-size-1e icon-color"
+                  />                    
+                  <span className="keyword-gray margin-left-right-03e">디자인</span>                  
+                  <span className="keyword-gray margin-left-right-03e">개발</span>
+                </p>
+              </div>              
+            </div>
+          </Col>          
+        </Row>                 
+        <div className="bottom-line"></div> 
+        {/* Project3 */}
+        <Row>          
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div>
+              <p className="font-bold-900 font-2">ERP 인사시스템 Version 변경</p>
+              <p className="font-color-lightgray font-bold">
+                ERP Version Uprage에 따라 변경된 인사 Table, SP를 커스터마이징 된 소스에 맞게 적용하고 신규 메뉴에서 사용할 출력물을 OZ Report로 개발했습니다.
+              </p>
+              <div className="padding-top-btm-1e">
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faUsers}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">1명</span>
+                  <span className="keyword-gray margin-left-right-03e">기여도 <span className="font-red">100</span> %</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCalendarAlt}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2021.11 - 2022.02 (3개월)</span>
+                </p>                
+                <div>                  
+                <img className="image_skill margin-left-right-03e" alt=".NET" src ="https://img.shields.io/badge/.NET-512BD4.svg?&style=for-the-badge&logo=.NET&logoColor=white"/>                                    
+                  <img className="image_skill margin-left-right-03e" alt="Mssql" src="https://img.shields.io/badge/Microsoft SQL Server-CC2927?style=for-the-badge&logo=Microsoft SQL Server&logoColor=white"/>                  
+                </div>
+              </div>
+              <div>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-gray margin-left-1e margin-right-03e">기획</span>                   
+                  <span className="keyword-gray margin-left-right-03e">디자인</span>
+                  <span className="keyword-gray margin-left-right-03e">개발</span>
+                </p>
+              </div>              
+            </div>
+          </Col>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div>
+                <UncontrolledCarousel items={carousel_erp}/>
+            </div>            
+          </Col>
+        </Row>                 
+        <div className="bottom-line"></div> 
+        {/* Project4 */}
+        <Row>          
+           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div style={{width:"80%"}}>
+                <UncontrolledCarousel items={carousel_erp}/>
             </div>            
           </Col>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
@@ -146,7 +261,7 @@ function Projects(): JSX.Element {
           </Col>          
         </Row>                 
         <div className="bottom-line"></div> 
-        {/* Project3 */}
+        {/* Project5 */}
         <Row>          
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
@@ -192,13 +307,13 @@ function Projects(): JSX.Element {
             </div>
           </Col>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
-            <div className="image_carousel">
-                <UncontrolledCarousel items={carousel_no_image}/>
+            <div>
+                <UncontrolledCarousel items={carousel_groupware}/>
             </div>            
           </Col>
         </Row>                 
         <div className="bottom-line"></div> 
-        {/* Project4 */}
+        {/* Project6 */}
         <Row>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div className="image_carousel">
@@ -260,7 +375,7 @@ function Projects(): JSX.Element {
           </Col>
         </Row>
         <div className="bottom-line"></div>
-        {/* Project3 */}
+        {/* Project7 */}
         <Row>          
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
