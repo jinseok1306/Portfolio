@@ -203,7 +203,7 @@ function Projects(): JSX.Element {
             </div>
           </Col>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
-            <div>
+            <div className="image_carousel2">
                 <UncontrolledCarousel items={carousel_erp}/>
             </div>            
           </Col>
@@ -212,7 +212,7 @@ function Projects(): JSX.Element {
         {/* Project4 */}
         <Row>          
            <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
-            <div style={{width:"80%"}}>
+            <div className="image_carousel2">
                 <UncontrolledCarousel items={carousel_erp}/>
             </div>            
           </Col>
