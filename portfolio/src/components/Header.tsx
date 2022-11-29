@@ -48,6 +48,9 @@ function Header() {
                   <NavItem className="navItem">
                     <NavLink href="#projects" onClick={setIsClose}>PROJECTS</NavLink>
                   </NavItem>
+                  <NavItem className="navItem">
+                    <NavLink href="#study" onClick={setIsClose}>STUDY</NavLink>
+                  </NavItem>
                 </Nav>
               </Collapse>              
             </Navbar>
