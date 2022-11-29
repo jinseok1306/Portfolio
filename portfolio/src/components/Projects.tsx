@@ -34,9 +34,9 @@ const carousel_seetec = [
   }
 ];
 
-const carousel_no_image = [
+const carousel_work_image = [
     {
-      src: process.env.PUBLIC_URL + "/assets/img/No-Image.png"
+      src: process.env.PUBLIC_URL + "/assets/img/탄력근무제.png"
     }
 ];
 
@@ -212,8 +212,8 @@ function Projects(): JSX.Element {
         {/* Project4 */}
         <Row>          
            <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
-            <div className="image_carousel2">
-                <UncontrolledCarousel items={carousel_erp}/>
+            <div>
+                <UncontrolledCarousel items={carousel_work_image}/>
             </div>            
           </Col>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
