@@ -115,7 +115,7 @@ function Projects(): JSX.Element {
         {/* Project2 */}
         <Row>          
            <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
-            <div style={{width:"80%"}}>
+            <div className="image_carousel2">
                 <UncontrolledCarousel items={carousel_yearend}/>
             </div>            
           </Col>
@@ -164,7 +164,7 @@ function Projects(): JSX.Element {
         <Row>          
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
-              <p className="font-bold-900 font-2">ERP 인사시스템 Version 변경</p>
+              <p className="font-bold-900 font-2">ERP Version 변경</p>
               <p className="font-color-lightgray font-bold">
                 ERP Version Uprage에 따라 변경된 인사 Table, SP를 커스터마이징 된 소스에 맞게 적용하고 신규 메뉴에서 사용할 출력물을 OZ Report로 개발했습니다.
               </p>
