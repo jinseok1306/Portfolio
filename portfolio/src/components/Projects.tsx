@@ -87,7 +87,7 @@ function Projects(): JSX.Element {
                     icon={faCalendarAlt}
                     className="icon-size-1e icon-color"
                   />
-                  <span className="padding-left-right-1e">2020.10 - 2020.11 (2개월)</span>
+                  <span className="padding-left-right-1e">2019.10 - 2019.11 (2개월)</span>
                 </p>                
                 <div>                  
                   <img className="image_skill margin-left-right-03e" alt=".NET" src ="https://img.shields.io/badge/.NET-512BD4.svg?&style=for-the-badge&logo=.NET&logoColor=white"/>                                    
@@ -142,7 +142,7 @@ function Projects(): JSX.Element {
                     icon={faCalendarAlt}
                     className="icon-size-1e icon-color"
                   />
-                  <span className="padding-left-right-1e">2021.04 - 2021.06 (3개월)</span>
+                  <span className="padding-left-right-1e">2020.04 - 2020.06 (3개월)</span>
                 </p>                
                 <div>                  
                   <img className="image_skill margin-left-right-03e" alt=".NET" src ="https://img.shields.io/badge/.NET-512BD4.svg?&style=for-the-badge&logo=.NET&logoColor=white"/>                                    
@@ -185,7 +185,7 @@ function Projects(): JSX.Element {
                     icon={faCalendarAlt}
                     className="icon-size-1e icon-color"
                   />
-                  <span className="padding-left-right-1e">2021.11 - 2022.02 (3개월)</span>
+                  <span className="padding-left-right-1e">2020.11 - 2021.02 (3개월)</span>
                 </p>                
                 <div>                  
                 <img className="image_skill margin-left-right-03e" alt=".NET" src ="https://img.shields.io/badge/.NET-512BD4.svg?&style=for-the-badge&logo=.NET&logoColor=white"/>                                    
