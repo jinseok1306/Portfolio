@@ -117,7 +117,10 @@ function Projects(): JSX.Element {
            <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div className="image_carousel2">
                 <UncontrolledCarousel items={carousel_yearend}/>
-            </div>            
+            </div>          
+            <div className="align-right div_width_90">
+              <p>[이미지투데이 제공]</p>              
+            </div>   
           </Col>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
@@ -205,7 +208,10 @@ function Projects(): JSX.Element {
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div className="image_carousel2">
                 <UncontrolledCarousel items={carousel_erp}/>
-            </div>            
+            </div>       
+            <div className="align-right div_width_90">
+              <p>Bizentro UNIERP</p>              
+            </div>     
           </Col>
         </Row>                 
         <div className="bottom-line"></div> 
@@ -214,7 +220,10 @@ function Projects(): JSX.Element {
            <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
                 <UncontrolledCarousel items={carousel_work_image}/>
-            </div>            
+            </div>        
+            <div className="align-right">
+              <p>Author 우지윤 / Contents Marketer</p>              
+            </div>    
           </Col>
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
