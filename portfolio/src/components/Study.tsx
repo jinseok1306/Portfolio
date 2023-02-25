@@ -68,6 +68,7 @@ function Study(): JSX.Element {
                             <Tab label="2020" {...a11yProps(0)} />
                             <Tab label="2021" {...a11yProps(1)} />
                             <Tab label="2022" {...a11yProps(2)} />        
+                            <Tab label="2023" {...a11yProps(3)} />       
                         </Tabs>
                         <TabPanel value={value} index={0}>
                             <div className="align-left">
@@ -102,9 +103,16 @@ function Study(): JSX.Element {
                                 <p className="font-color-lightgray">AutoHotkey 공부 2022.08~2022.08</p>
                                 <p className="font-color-lightgray">모의해킹 인프런 강의 수강 2022.08~2022.08</p>
                                 <p className="font-color-lightgray">컴퓨터 구조+운영체제 2022.10~ 진행중</p>
-                                <p className="font-color-lightgray">프로그래머스 코딩테스트 공부 2022.11~진행중</p>
+                                <p className="font-color-lightgray">프로그래머스 코딩테스트 공부 2022.11~2023.02</p>
                             </div>
-                        </TabPanel>      
+                        </TabPanel>  
+                        <TabPanel value={value} index={3}>
+                            <div className="align-left">
+                                <p className="font-color-lightgray">시스코 네트워크 공부 2023.02~진행중</p>
+                                <p className="font-color-lightgray">영어회화 공부 2023.02~진행중</p>     
+                                <p className="font-color-lightgray">기초회계원리 2023.03~2023.04(예정)</p>                                
+                            </div>
+                        </TabPanel>     
                     </Box>
                 </div>
             </Col>

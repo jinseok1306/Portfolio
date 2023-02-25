@@ -146,7 +146,7 @@ function About(): JSX.Element {
                                 </TimelineOppositeContent>
                                 <TimelineSeparator>
                                 <TimelineConnector />
-                                <TimelineDot color="primary">
+                                <TimelineDot>
                                     <BusinessIcon />
                                 </TimelineDot>
                                 <TimelineConnector />
@@ -162,7 +162,35 @@ function About(): JSX.Element {
                                     <p className="font-color-lightgray">그룹웨어, Ezgen 웹 시스템, React 웹, 모바일 유지보수 및 개발, 인프라 업무지원</p>
                                 </Typography>                      
                                 </TimelineContent>
-                            </TimelineItem>             
+                            </TimelineItem>    
+                            <TimelineItem>
+                                <TimelineOppositeContent
+                                    sx={{ m: 'auto 0' }}
+                                    align="right"
+                                    variant="body2"
+                                    color="text.secondary"
+                                >
+                                    2023.02 - 재직중
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                <TimelineConnector />
+                                <TimelineDot color="primary">
+                                    <BusinessIcon />
+                                </TimelineDot>
+                                <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                                <Typography variant="h6" component="span">
+                                    KCC건설
+                                </Typography>
+                                <Typography>
+                                    <p className="font-color-lightgray">경영정보부 사원</p>
+                                </Typography>          
+                                <Typography>
+                                    <p className="font-color-lightgray">관리회계 전표, 네트워크, 어플리케이션 개발 업무담당</p>
+                                </Typography>                      
+                                </TimelineContent>
+                            </TimelineItem>            
                         </Timeline>
                     </div>
                 </Col>
