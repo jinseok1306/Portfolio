@@ -35,9 +35,8 @@ function About(): JSX.Element {
                             </CardTitle>
                             <CardText>
                                 <p className="font-color-lightgray">
-                                전산팀에서 Web, Mobile App, ERP 개발 및 유지보수와 인프라 업무지원을 담당한 개발자입니다. 
-                                전산 업무 특성 상 다방면 경험은 가능하지만 한 분야에 전문가가 될 수는 없습니다. 
-                                그렇기에 웹 시스템에 대한 전문가로 거듭나기 위해 준비하고 있습니다.                                
+                                전산팀에서 Web, Mobile App, ERP 개발 및 유지보수와 네트워크 업무지원을 담당하는 개발자입니다. 
+                                현재는 모의해킹 및 네트워크 위주로 공부하고 있으며 DevOps 개발자를 꿈꾸며 나아가고 있습니다.                          
                                 </p>                            
                                 <p className="font-color-lightgray font-bold">
                                 더욱더 성장하여 과거의 나보다 나아진 개발자가 되기 위해 오늘도 공부합니다.
