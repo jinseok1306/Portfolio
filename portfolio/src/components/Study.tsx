@@ -110,7 +110,8 @@ function Study(): JSX.Element {
                             <div className="align-left">
                                 <p className="font-color-lightgray">시스코 네트워크 공부 2023.02~진행중</p>
                                 <p className="font-color-lightgray">영어회화 공부 2023.02~진행중</p>     
-                                <p className="font-color-lightgray">기초회계원리 2023.03~2023.04(예정)</p>                                
+                                <p className="font-color-lightgray">기초회계원리 2023.03~2023.04</p>     
+                                <p className="font-color-lightgray">SpringBoot+Mybatis 공부 2023.04~2023.05</p>                                
                             </div>
                         </TabPanel>     
                     </Box>

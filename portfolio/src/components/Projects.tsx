@@ -58,6 +58,30 @@ const carousel_yearend = [
   }
 ];
 
+const carousel_dialApp = [
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/AllowPage.png"
+  },
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/ContactPage.png"
+  },
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/DialPage.png"
+  },
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/LoadingPage.png"
+  }
+];
+
+const carousel_KSIS = [
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/KSIS_LoginPage.png"
+  },
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/KSIS_MainPage.png"
+  }
+];
+
 function Projects(): JSX.Element {
   return (
     <div id="projects" className="padding-top-btm-5e">
@@ -430,6 +454,103 @@ function Projects(): JSX.Element {
           <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div >
             <UncontrolledCarousel items={carousel_seetec}/>
+            </div>            
+          </Col>
+        </Row>                 
+        <div className="bottom-line"></div> 
+        {/* Project8 */}
+        <Row>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div className="image_carousel">
+                <UncontrolledCarousel items={carousel_dialApp}/>
+            </div>            
+          </Col>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div>
+              <p className="font-bold-900 font-2">DTMF 어플</p>
+              <p className="font-color-lightgray font-bold">
+                React Native로 개발한 DTMF Tone Dial 어플입니다.
+              </p>
+              <div className="padding-top-btm-1e">
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faUsers}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">1명</span>
+                  <span className="keyword-gray margin-left-right-03e">기여도 <span className="font-red">100</span> %</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCalendarAlt}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2023.02 - 2023.02 (1개월)</span>
+                </p>                
+                <div>
+                  <img className="image_skill margin-left-right-03e" alt="React Native" src="https://img.shields.io/badge/React Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+                </div>
+              </div>
+              <div>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-gray margin-left-1e margin-right-03e">디자인</span>                   
+                  <span className="keyword-gray margin-left-right-03e">개발</span>
+                </p>
+              </div>              
+            </div>
+          </Col>
+        </Row>
+        <div className="bottom-line"></div>
+        {/* Project9 */}
+        <Row>          
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div>
+              <p className="font-bold-900 font-2">경영정보 사이트 리뉴얼</p>
+              <p className="font-color-lightgray font-bold">
+                기존 .NET 기반 경영정보 사이트를 React+SpringBoot로 신규 개발했습니다.
+              </p>
+              <div className="padding-top-btm-1e">
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faUsers}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">1명</span>
+                  <span className="keyword-gray margin-left-right-03e">기여도 <span className="font-red">100</span> %</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCalendarAlt}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2023.04 - 진행중</span>
+                </p>                
+                <div>                                                      
+                <img className="image_skill margin-left-right-03e" alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+                  <img className="image_skill margin-left-right-03e" alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"/>                  
+                  <img className="image_skill margin-left-right-03e" alt="Mssql" src="https://img.shields.io/badge/Microsoft SQL Server-CC2927?style=for-the-badge&logo=Microsoft SQL Server&logoColor=white"/>
+                  <img className="image_skill margin-left-right-03e" alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white"/>
+                </div>
+              </div>
+              <div>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-gray margin-left-1e margin-right-03e">디자인</span>                   
+                  <span className="keyword-gray margin-left-right-03e">개발</span>
+                </p>
+              </div>              
+            </div>
+          </Col>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+            <div >
+            <UncontrolledCarousel items={carousel_KSIS}/>
             </div>            
           </Col>
         </Row>                 
