@@ -23,7 +23,7 @@ function Footer(): JSX.Element {
                   <img src={process.env.PUBLIC_URL + "/assets/img/Github.jpg"} alt="Github 링크" className="mainImg"/>                  
                 </a>
                 <a
-                  href="https://https://keima.tistory.com/"
+                  href="https://keima.tistory.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
