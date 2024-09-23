@@ -30,7 +30,11 @@ function Skills(): JSX.Element {
                 </Row>
                 <Row>
                     <p className="font-1H font-bold font-color-gray"><img alt=".NET" src ="https://img.shields.io/badge/.NET-512BD4.svg?&style=for-the-badge&logo=.NET&logoColor=white"/></p>
-                    <p className="font-color-lightgray font-bold">기본적인 DB 연결(EF, SQL Connection), MVC 기반 설계, LINQ를 구사할 수 있으며 주로 Web API를 만드는 용도로 사용했습니다.</p>
+                    <p className="font-color-lightgray font-bold">DB 연결(EF, SQL Connection), MVC 기반 설계를 구사할 수 있으며 Web API 개발 및 MVC 기반 사이트를 운영하고 있습니다.</p>
+                </Row>
+                <Row>
+                    <p className="font-1H font-bold font-color-gray"><img alt="Spring" src ="https://img.shields.io/badge/Spring-6DB33F.svg?&style=for-the-badge&logo=Spring&logoColor=white"/></p>
+                    <p className="font-color-lightgray font-bold">DB 연결(Mybatis), MVC 기반 설계를 구사할 수 있으며 Web API 개발 및 MVC 기반 사이트를 운영하고 있습니다.</p>
                 </Row>
                 <Row>
                     <p className="font-1H font-bold font-color-gray"><img alt="Flutter" src ="https://img.shields.io/badge/Flutter-02569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white"/></p>

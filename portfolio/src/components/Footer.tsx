@@ -13,14 +13,21 @@ function Footer(): JSX.Element {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={process.env.PUBLIC_URL + "/assets/img/Notion.png"} alt="Notion 링크" className="mainImg" />                  
+                  <img src={process.env.PUBLIC_URL + "/assets/img/Notion.png"} alt="Notion 링크" className="mainImg"/>                  
                 </a>
                 <a
                   href="https://github.com/jinseok1306"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={process.env.PUBLIC_URL + "/assets/img/Github.jpg"} alt="Github 링크" className="mainImg" />                  
+                  <img src={process.env.PUBLIC_URL + "/assets/img/Github.jpg"} alt="Github 링크" className="mainImg"/>                  
+                </a>
+                <a
+                  href="https://https://keima.tistory.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={process.env.PUBLIC_URL + "/assets/img/tistory.svg"} alt="Tistory 링크" className="mainImg"/>                  
                 </a>
             </div>
           </Col>

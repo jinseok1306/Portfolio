@@ -120,7 +120,10 @@ function Study(): JSX.Element {
                         <TabPanel value={value} index={4}>
                             <div className="align-left">
                                 <p className="font-color-lightgray">정보보안기사 공부 2024.02~진행중</p>
-                                <p className="font-color-lightgray">정보보호공시 공부 2024.04~진행중</p>                                                                  
+                                <p className="font-color-lightgray">정보보호공시 2024.05~2024.06</p>                                                                  
+                                <p className="font-color-lightgray">KISA 악성메일 테스트 2024.06~2024.06</p>                                                                  
+                                <p className="font-color-lightgray">자체 악성메일 테스트 2024.06~2024.06</p>                                                                  
+                                <p className="font-color-lightgray">EMS 네트워크 로드맵 작성 2024.07~2024.07</p>                                                                  
                             </div>
                         </TabPanel>     
                     </Box>

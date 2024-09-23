@@ -527,7 +527,7 @@ function Projects(): JSX.Element {
                     icon={faCalendarAlt}
                     className="icon-size-1e icon-color"
                   />
-                  <span className="padding-left-right-1e">2023.04 - 진행중</span>
+                  <span className="padding-left-right-1e">2023.04 - 2024.07</span>
                 </p>                
                 <div>                                                      
                 <img className="image_skill margin-left-right-03e" alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
