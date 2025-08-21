@@ -21,7 +21,7 @@ function About(): JSX.Element {
         </div>
         <Container>
             <Row>
-                <Col xs={12} sm={4} md={4} >
+                <Col xs={12} sm={5} md={5} >
                     <Card style={{border:0}}>
                         <img
                             className="image_about"
@@ -45,7 +45,7 @@ function About(): JSX.Element {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col xs={12} sm={6} md={6}>
+                <Col xs={12} sm={7} md={7}>
                     <div>
                         <p className="font-bold-900 font-1H font-color-bl">
                             Career
