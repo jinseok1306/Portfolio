@@ -70,6 +70,7 @@ function Study(): JSX.Element {
                             <Tab label="2022" {...a11yProps(2)} />        
                             <Tab label="2023" {...a11yProps(3)} />       
                             <Tab label="2024" {...a11yProps(4)} />     
+                            <Tab label="2025" {...a11yProps(5)} />  
                         </Tabs>
                         <TabPanel value={value} index={0}>
                             <div className="align-left">
@@ -118,14 +119,24 @@ function Study(): JSX.Element {
                             </div>
                         </TabPanel>     
                         <TabPanel value={value} index={4}>
-                            <div className="align-left">
-                                <p className="font-color-lightgray">정보보안기사 공부 2024.02~진행중</p>
-                                <p className="font-color-lightgray">정보보호공시 2024.05~2024.06</p>                                                                  
-                                <p className="font-color-lightgray">KISA 악성메일 테스트 2024.06~2024.06</p>                                                                  
-                                <p className="font-color-lightgray">자체 악성메일 테스트 2024.06~2024.06</p>                                                                  
-                                <p className="font-color-lightgray">EMS 네트워크 로드맵 작성 2024.07~2024.07</p>                                                                  
+                        <div className="align-left">
+                                <p className="font-color-lightgray">정보보호공시 2024.05~2024.06</p>                                                                                                                               
+                                <p className="font-color-lightgray">EMS 네트워크 로드맵 작성 2024.07~2024.07</p>
+                                <p className="font-color-lightgray">대학원 입시 준비 2024.10~2024.12</p>      
+                                <p className="font-color-lightgray">김영한의 자바 입문 공부 2024.11~2024.12</p>                                                                                                                              
+                                <p className="font-color-lightgray">프로그래머스 PCCE 준비 2024.11~2024.12</p>                                                                  
                             </div>
                         </TabPanel>     
+                        <TabPanel value={value} index={5}>
+                            <div className="align-left">
+                                <p className="font-color-lightgray">정보보안기사 필기 공부 2024.10~2025.03</p>
+                                <p className="font-color-lightgray">윈도우 포렌식(대학원) 2025.03~2025.06</p>
+                                <p className="font-color-lightgray">해킹 및 침해대응(대학원) 2025.03~2025.06</p>
+                                <p className="font-color-lightgray">악성코드 및 취약점분석(대학원) 2025.03~2025.06</p>
+                                <p className="font-color-lightgray">정보보안기사 실기 공부 2025.07~진행중</p>
+                                <p className="font-color-lightgray">CPPG 공부 2024.07~진행중</p>                                                                                                                                                                                                                        
+                            </div>
+                        </TabPanel>  
                     </Box>
                 </div>
             </Col>

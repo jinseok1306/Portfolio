@@ -91,7 +91,7 @@ function Projects(): JSX.Element {
       <Container>      
         {/* Project1 */}
         <Row>          
-          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+          {/* <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
               <p className="font-bold-900 font-2">Cepheus Plus GUI</p>
               <p className="font-color-lightgray font-bold">
@@ -128,12 +128,12 @@ function Projects(): JSX.Element {
                 </p>
               </div>              
             </div>
-          </Col>
-          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
+          </Col> */}
+          {/* <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div >
             <UncontrolledCarousel items={carousel_cepheus}/>
             </div>            
-          </Col>
+          </Col> */}
         </Row>                 
         <div className="bottom-line"></div> 
         {/* Project2 */}

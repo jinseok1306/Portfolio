@@ -21,7 +21,7 @@ function About(): JSX.Element {
         </div>
         <Container>
             <Row>
-                <Col xs={12} sm={6} md={6} >
+                <Col xs={12} sm={4} md={4} >
                     <Card style={{border:0}}>
                         <img
                             className="image_about"
@@ -35,11 +35,11 @@ function About(): JSX.Element {
                             </CardTitle>
                             <CardText>
                                 <p className="font-color-lightgray">
-                                전산팀에서 Web, Mobile App, ERP 개발 및 유지보수와 네트워크 업무지원을 담당하는 개발자입니다. 
-                                현재는 모의해킹 및 네트워크 위주로 공부하고 있으며 DevOps 개발자를 꿈꾸며 나아가고 있습니다.                          
+                                Web, Mobile App, ERP 개발 담당자로 시작해 현재는 보안 담당자로 성장하고 있는 지원자 박진석입니다.
+                                대학원에서 포렌식, 침해대응을 공부하고 있으며 ISMS-P 취득을 목표로 공부중입니다.                          
                                 </p>                            
                                 <p className="font-color-lightgray font-bold">
-                                더욱더 성장하여 과거의 나보다 나아진 개발자가 되기 위해 오늘도 공부합니다.
+                                보안 엔지니어이자 보안 담당자로 성장하기 위해 오늘도 도전합니다.
                                 </p>
                             </CardText>
                         </CardBody>
@@ -71,14 +71,11 @@ function About(): JSX.Element {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                 <Typography variant="h6" component="span">
-                                    청주대학교
-                                </Typography>
-                                <Typography>
-                                    <p className="font-color-lightgray">전자공학과 학사</p>
-                                </Typography>
+                                    청주대학교 - 전자공학과
+                                </Typography>                                
                                 </TimelineContent>
                             </TimelineItem>
-                            <TimelineItem>
+                            {/* <TimelineItem>
                                 <TimelineOppositeContent
                                     sx={{ m: 'auto 0' }}
                                     align="right"
@@ -105,7 +102,7 @@ function About(): JSX.Element {
                                     <p className="font-color-lightgray">하이닉스 반도체 장비 GUI 개발 및 유지보수</p>
                                 </Typography>
                                 </TimelineContent>
-                            </TimelineItem>          
+                            </TimelineItem>           */}
                             <TimelineItem>
                                 <TimelineOppositeContent
                                     sx={{ m: 'auto 0' }}
@@ -124,13 +121,19 @@ function About(): JSX.Element {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                 <Typography variant="h6" component="span">
-                                    자화전자
-                                </Typography>
-                                <Typography>
-                                    <p className="font-color-lightgray">IT운영팀 사원</p>
-                                </Typography>
-                                <Typography>
-                                    <p className="font-color-lightgray">ERP 인사 시스템, 그룹웨어 웹시스템, 모바일 어플 유지보수 및 개발, 인프라 업무 지원</p>
+                                    자화전자 - IT운영팀(사원)
+                                </Typography>                            
+                                <Typography sx={{ m: 'auto 0' }}
+                                    align="left"
+                                    variant="body2"
+                                    color="text.secondary">
+                                    <p>
+                                    - ERP 개발 : 비젠트로 ERP 개발 및 운영(인사, 회계)<br/>
+                                    - 웹개발 : .NET 기반 그룹웨어 개발 및 운영<br/>
+                                    - 모바일 개발 : Flutter 기반 앱 개발<br/>
+                                    - 보안 관리: 문서중앙화, NAC 운영, 백신 운영<br/>
+                                    - 서버 관리 : AD, Exchange 서버 관리<br/>
+                                    </p>
                                 </Typography>
                                 </TimelineContent>
                             </TimelineItem>           
@@ -152,13 +155,17 @@ function About(): JSX.Element {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                 <Typography variant="h6" component="span">
-                                    롯데정보통신
-                                </Typography>
-                                <Typography>
-                                    <p className="font-color-lightgray">씨텍IS담당 선임</p>
-                                </Typography>          
-                                <Typography>
-                                    <p className="font-color-lightgray">그룹웨어, Ezgen 웹 시스템, React 웹, 모바일 유지보수 및 개발, 인프라 업무지원</p>
+                                    롯데정보통신 -씨텍IS담당(선임)
+                                </Typography>                                        
+                                <Typography sx={{ m: 'auto 0' }}
+                                    align="left"
+                                    variant="body2"
+                                    color="text.secondary">
+                                    <p>
+                                        - ERP 운영 : 더존 ERP 운영 (인사)<br/>
+                                        - 웹 개발 : React 기반 웹 개발<br/>
+                                        - 모바일 : React Native 기반 앱 개발<br/>
+                                        </p>
                                 </Typography>                      
                                 </TimelineContent>
                             </TimelineItem>    
@@ -169,27 +176,55 @@ function About(): JSX.Element {
                                     variant="body2"
                                     color="text.secondary"
                                 >
-                                    2023.02 - 재직중
+                                    2023.02 - 2025.06
                                 </TimelineOppositeContent>
                                 <TimelineSeparator>
                                 <TimelineConnector />
-                                <TimelineDot color="primary">
+                                <TimelineDot>
                                     <BusinessIcon />
                                 </TimelineDot>
                                 <TimelineConnector />
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                 <Typography variant="h6" component="span">
-                                    KCC건설
-                                </Typography>
-                                <Typography>
-                                    <p className="font-color-lightgray">경영정보부 사원</p>
-                                </Typography>          
-                                <Typography>
-                                    <p className="font-color-lightgray">관리회계 전표, 네트워크, 어플리케이션 개발 업무담당</p>
+                                    KCC건설 - 정보보안팀(대리)
+                                </Typography>                                    
+                                <Typography sx={{ m: 'auto 0' }}
+                                    align="left"
+                                    variant="body2"
+                                    color="text.secondary">
+                                    <p>
+                                    - ERP 개발 : ERP 개발 및 운영(전표, 관리회계)<br/>
+                                    - 웹개발 : .NET, Spring 기반 웹 사이트 개발 및 운영<br/>
+                                    - 네트워크 관리 : 방화벽, 웹방화벽, VPN, 스위치 등<br/>
+                                    - 정보보호공시 및 개인정보 관리<br/>
+                                    - 보안 : 트러블슈팅 및 시큐어 코딩 가이드<br/>
+                                        </p>
                                 </Typography>                      
                                 </TimelineContent>
-                            </TimelineItem>            
+                            </TimelineItem>     
+                            <TimelineItem>
+                                <TimelineOppositeContent
+                                    sx={{ m: 'auto 0' }}
+                                    align="right"
+                                    variant="body2"
+                                    color="text.secondary"
+                                >
+                                    2025.03 - 진행중
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                <TimelineConnector />
+                                <TimelineDot  color="primary">
+                                    <SchoolIcon />
+                                </TimelineDot>
+                                <TimelineConnector />
+                                </TimelineSeparator>
+                                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                                <Typography variant="h6" component="span">
+                                    서강대학교 AI·SW대학원 - 정보보호
+                                </Typography>                                
+                                </TimelineContent>
+                            </TimelineItem>       
                         </Timeline>
                     </div>
                 </Col>
